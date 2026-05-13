@@ -158,6 +158,9 @@
 
 **Steps.**
 
+0. Run this in your snowflake:
+ALTER POSTGRES INSTANCE GDEC_PG SET POSTGRES_SETTINGS = '{"shared_preload_libraries": "pg_extension_base"}';
+
 1. In your `psql` session against `gdec_pg_<NN>`, enable `pg_lake`:
    ```sql
    CREATE EXTENSION IF NOT EXISTS pg_lake CASCADE;
