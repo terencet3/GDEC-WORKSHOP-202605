@@ -1,0 +1,1 @@
+https://signup.snowflake.com/?t=bde2b39383ab95b99c79485f267863f3b1f960f165d1ac7971b7e952b924a49b
